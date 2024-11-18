@@ -2,7 +2,7 @@
 <q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:anss="http://anss.org/xmlns/event/0.1" xmlns:catalog="http://anss.org/xmlns/catalog/0.1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
   <eventParameters publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?starttime=2024-01-01T00%3A00%3A00.000000&amp;endtime=2024-10-01T00%3A00%3A00.000000&amp;minlatitude=29.0&amp;maxlatitude=50.0&amp;minlongitude=125.0&amp;maxlongitude=145.0&amp;mindepth=30.0&amp;minmagnitude=5.0">
     <creationInfo>
-      <creationTime>2024-11-18T11:29:11.000000Z</creationTime>
+      <creationTime>2024-11-18T11:32:33.000000Z</creationTime>
     </creationInfo>
     <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ndp6&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000ndp6">
       <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000ndp6/us/1730156979040/product.xml</preferredOriginID>
