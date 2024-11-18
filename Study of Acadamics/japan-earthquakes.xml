@@ -1,0 +1,1458 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:anss="http://anss.org/xmlns/event/0.1" xmlns:catalog="http://anss.org/xmlns/catalog/0.1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+  <eventParameters publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?starttime=2024-01-01T00%3A00%3A00.000000&amp;endtime=2024-10-01T00%3A00%3A00.000000&amp;minlatitude=29.0&amp;maxlatitude=50.0&amp;minlongitude=125.0&amp;maxlongitude=145.0&amp;mindepth=30.0&amp;minmagnitude=5.0">
+    <creationInfo>
+      <creationTime>2024-11-18T11:29:11.000000Z</creationTime>
+    </creationInfo>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ndp6&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000ndp6">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000ndp6/us/1730156979040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000ndp6/us/1730156979040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>59 km SE of Koshima, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-10-28T23:15:07.146000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000ndp6/us/1730156979040/product.xml" catalog:datasource="us" catalog:dataid="us7000ndp6" catalog:eventsource="us" catalog:eventid="7000ndp6">
+        <time>
+          <value>2024-09-13T23:03:41.334000Z</value>
+        </time>
+        <latitude>
+          <value>29.8106</value>
+        </latitude>
+        <longitude>
+          <value>130.9208</value>
+        </longitude>
+        <depth>
+          <value>30000.0</value>
+          <uncertainty>1752.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>312</usedPhaseCount>
+          <usedStationCount>307</usedStationCount>
+          <standardError>0.5</standardError>
+          <azimuthalGap>18.0</azimuthalGap>
+          <minimumDistance>1.741</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-10-28T23:09:39.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>6410.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000ndp6/us/1730156979040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000ndp6" catalog:eventsource="us" catalog:eventid="7000ndp6">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.066</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000ndp6/us/1730156979040/product.xml</originID>
+        <stationCount>22</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-10-28T23:09:39.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000nded&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000nded">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000nded/us/1729120443040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000nded/us/1729120443040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>Izu Islands, Japan region</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-10-16T23:14:03.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000nded/us/1729120443040/product.xml" catalog:datasource="us" catalog:dataid="us7000nded" catalog:eventsource="us" catalog:eventid="7000nded">
+        <time>
+          <value>2024-09-12T23:48:17.804000Z</value>
+        </time>
+        <latitude>
+          <value>30.9789</value>
+        </latitude>
+        <longitude>
+          <value>141.3145</value>
+        </longitude>
+        <depth>
+          <value>45941.0</value>
+          <uncertainty>5074.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>112</usedPhaseCount>
+          <usedStationCount>109</usedStationCount>
+          <standardError>0.73</standardError>
+          <azimuthalGap>27.0</azimuthalGap>
+          <minimumDistance>2.482</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-10-16T23:14:03.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8230.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000nded/us/1729120443040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000nded" catalog:eventsource="us" catalog:eventid="7000nded">
+        <mag>
+          <value>5.2</value>
+          <uncertainty>0.062</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000nded/us/1729120443040/product.xml</originID>
+        <stationCount>25</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-10-16T23:14:03.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000nqat&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000nqat">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000nqat/us/1731687603040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000nqat/us/1731687603040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>230 km SE of Kushimoto, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-11-15T16:20:03.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000nqat/us/1731687603040/product.xml" catalog:datasource="us" catalog:dataid="us6000nqat" catalog:eventsource="us" catalog:eventid="6000nqat">
+        <time>
+          <value>2024-09-07T13:42:52.564000Z</value>
+        </time>
+        <latitude>
+          <value>32.2043</value>
+        </latitude>
+        <longitude>
+          <value>137.7326</value>
+        </longitude>
+        <depth>
+          <value>384984.0</value>
+          <uncertainty>4801.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>122</usedPhaseCount>
+          <usedStationCount>120</usedStationCount>
+          <standardError>0.79</standardError>
+          <azimuthalGap>34.0</azimuthalGap>
+          <minimumDistance>1.977</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-11-15T16:20:03.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8670.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000nqat/us/1731687603040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us6000nqat" catalog:eventsource="us" catalog:eventid="6000nqat">
+        <mag>
+          <value>5.2</value>
+          <uncertainty>0.083</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000nqat/us/1731687603040/product.xml</originID>
+        <stationCount>14</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-11-15T16:20:03.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000nj9s&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000nj9s">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000nj9s/us/1729792674040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000nj9s/us/1729792674040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>151 km E of Dolinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-10-24T17:57:54.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000nj9s/us/1729792674040/product.xml" catalog:datasource="us" catalog:dataid="us6000nj9s" catalog:eventsource="us" catalog:eventid="6000nj9s">
+        <time>
+          <value>2024-08-10T03:28:32.681000Z</value>
+        </time>
+        <latitude>
+          <value>47.223</value>
+        </latitude>
+        <longitude>
+          <value>144.7915</value>
+        </longitude>
+        <depth>
+          <value>402166.0</value>
+          <uncertainty>3081.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>159</usedPhaseCount>
+          <usedStationCount>157</usedStationCount>
+          <standardError>0.75</standardError>
+          <azimuthalGap>17.0</azimuthalGap>
+          <minimumDistance>1.405</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-10-24T17:57:54.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7670.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000nj9s/us/1729792674040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us6000nj9s" catalog:eventsource="us" catalog:eventid="6000nj9s">
+        <mag>
+          <value>6.5</value>
+          <uncertainty>0.053</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000nj9s/us/1729792674040/product.xml</originID>
+        <stationCount>34</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-10-24T17:57:54.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000nj24&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000nj24">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000nj24/us/1729792663040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000nj24/us/1729792663040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>1 km N of Isehara, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-10-24T17:57:43.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000nj24/us/1729792663040/product.xml" catalog:datasource="us" catalog:dataid="us6000nj24" catalog:eventsource="us" catalog:eventid="6000nj24">
+        <time>
+          <value>2024-08-09T10:57:39.340000Z</value>
+        </time>
+        <latitude>
+          <value>35.4116</value>
+        </latitude>
+        <longitude>
+          <value>139.3122</value>
+        </longitude>
+        <depth>
+          <value>30275.0</value>
+          <uncertainty>3874.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>154</usedPhaseCount>
+          <usedStationCount>147</usedStationCount>
+          <standardError>0.58</standardError>
+          <azimuthalGap>54.0</azimuthalGap>
+          <minimumDistance>0.825</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-10-24T17:57:43.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>4860.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000nj24/us/1729792663040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us6000nj24" catalog:eventsource="us" catalog:eventid="6000nj24">
+        <mag>
+          <value>5.0</value>
+          <uncertainty>0.098</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000nj24/us/1729792663040/product.xml</originID>
+        <stationCount>10</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-10-24T17:57:43.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000niuu&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000niuu">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000niuu/us/1729792649040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000niuu/us/1729792649040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>51 km W of Otobe, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-10-24T17:57:29.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000niuu/us/1729792649040/product.xml" catalog:datasource="us" catalog:dataid="us6000niuu" catalog:eventsource="us" catalog:eventid="6000niuu">
+        <time>
+          <value>2024-08-08T12:49:16.076000Z</value>
+        </time>
+        <latitude>
+          <value>42.0164</value>
+        </latitude>
+        <longitude>
+          <value>139.5219</value>
+        </longitude>
+        <depth>
+          <value>193573.0</value>
+          <uncertainty>2180.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>124</usedPhaseCount>
+          <usedStationCount>121</usedStationCount>
+          <standardError>0.61</standardError>
+          <azimuthalGap>54.0</azimuthalGap>
+          <minimumDistance>2.709</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-10-24T17:57:29.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7340.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000niuu/us/1729792649040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us6000niuu" catalog:eventsource="us" catalog:eventid="6000niuu">
+        <mag>
+          <value>5.2</value>
+          <uncertainty>0.02</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000niuu/us/1729792649040/product.xml</originID>
+        <stationCount>801</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-10-24T17:57:29.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ngq6&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000ngq6">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000ngq6/us/1728675546040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000ngq6/us/1728675546040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>1 km ENE of Saito, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-10-11T19:39:06.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000ngq6/us/1728675546040/product.xml" catalog:datasource="us" catalog:dataid="us6000ngq6" catalog:eventsource="us" catalog:eventid="6000ngq6">
+        <time>
+          <value>2024-07-29T16:25:31.492000Z</value>
+        </time>
+        <latitude>
+          <value>32.0876</value>
+        </latitude>
+        <longitude>
+          <value>131.4191</value>
+        </longitude>
+        <depth>
+          <value>66144.0</value>
+          <uncertainty>1282.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>157</usedPhaseCount>
+          <usedStationCount>151</usedStationCount>
+          <standardError>0.74</standardError>
+          <azimuthalGap>63.0</azimuthalGap>
+          <minimumDistance>1.131</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-10-11T19:39:06.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>6650.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000ngq6/us/1728675546040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us6000ngq6" catalog:eventsource="us" catalog:eventid="6000ngq6">
+        <mag>
+          <value>5.2</value>
+          <uncertainty>0.066</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000ngq6/us/1728675546040/product.xml</originID>
+        <stationCount>22</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-10-11T19:39:06.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000mzzc&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000mzzc">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000mzzc/us/1727563339040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000mzzc/us/1727563339040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>161 km SSE of Tateyama, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-09-28T22:42:19.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000mzzc/us/1727563339040/product.xml" catalog:datasource="us" catalog:dataid="us7000mzzc" catalog:eventsource="us" catalog:eventid="7000mzzc">
+        <time>
+          <value>2024-07-18T11:07:34.561000Z</value>
+        </time>
+        <latitude>
+          <value>33.578</value>
+        </latitude>
+        <longitude>
+          <value>140.3234</value>
+        </longitude>
+        <depth>
+          <value>91000.0</value>
+          <uncertainty>1824.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>174</usedPhaseCount>
+          <usedStationCount>157</usedStationCount>
+          <standardError>1.17</standardError>
+          <azimuthalGap>30.0</azimuthalGap>
+          <minimumDistance>0.628</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-09-28T22:42:19.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>5580.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000mzzc/us/1727563339040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000mzzc" catalog:eventsource="us" catalog:eventid="7000mzzc">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.042</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000mzzc/us/1727563339040/product.xml</originID>
+        <stationCount>54</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-09-28T22:42:19.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000mxbi&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000mxbi">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000mxbi/us/1726177949040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000mxbi/us/1726177949040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>10 km WNW of Nayoro, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-09-12T21:52:29.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000mxbi/us/1726177949040/product.xml" catalog:datasource="us" catalog:dataid="us7000mxbi" catalog:eventsource="us" catalog:eventid="7000mxbi">
+        <time>
+          <value>2024-07-05T18:14:03.423000Z</value>
+        </time>
+        <latitude>
+          <value>44.37</value>
+        </latitude>
+        <longitude>
+          <value>142.3255</value>
+        </longitude>
+        <depth>
+          <value>232352.0</value>
+          <uncertainty>3695.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>269</usedPhaseCount>
+          <usedStationCount>236</usedStationCount>
+          <standardError>0.8</standardError>
+          <azimuthalGap>57.0</azimuthalGap>
+          <minimumDistance>0.316</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-09-12T21:52:29.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>6340.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000mxbi/us/1726177949040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000mxbi" catalog:eventsource="us" catalog:eventid="7000mxbi">
+        <mag>
+          <value>5.1</value>
+          <uncertainty>0.063</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000mxbi/us/1726177949040/product.xml</originID>
+        <stationCount>24</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-09-12T21:52:29.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000mwzq&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000mwzq">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000mwzq/us/1726177948040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000mwzq/us/1726177948040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>6 km S of Katsuura, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-09-12T21:52:28.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000mwzq/us/1726177948040/product.xml" catalog:datasource="us" catalog:dataid="us7000mwzq" catalog:eventsource="us" catalog:eventid="7000mwzq">
+        <time>
+          <value>2024-07-04T03:12:30.294000Z</value>
+        </time>
+        <latitude>
+          <value>35.0839</value>
+        </latitude>
+        <longitude>
+          <value>140.3095</value>
+        </longitude>
+        <depth>
+          <value>47606.0</value>
+          <uncertainty>5484.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>180</usedPhaseCount>
+          <usedStationCount>179</usedStationCount>
+          <standardError>0.66</standardError>
+          <azimuthalGap>89.0</azimuthalGap>
+          <minimumDistance>2.006</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-09-12T21:52:28.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>6880.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000mwzq/us/1726177948040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000mwzq" catalog:eventsource="us" catalog:eventid="7000mwzq">
+        <mag>
+          <value>5.1</value>
+          <uncertainty>0.098</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000mwzq/us/1726177948040/product.xml</originID>
+        <stationCount>10</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-09-12T21:52:28.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000n82p&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000n82p">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000n82p/us/1725487060040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000n82p/us/1725487060040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>206 km SSE of Katsuura, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-09-04T21:57:40.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000n82p/us/1725487060040/product.xml" catalog:datasource="us" catalog:dataid="us6000n82p" catalog:eventsource="us" catalog:eventid="6000n82p">
+        <time>
+          <value>2024-06-25T08:30:59.769000Z</value>
+        </time>
+        <latitude>
+          <value>33.4839</value>
+        </latitude>
+        <longitude>
+          <value>141.3336</value>
+        </longitude>
+        <depth>
+          <value>34723.0</value>
+          <uncertainty>3604.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>140</usedPhaseCount>
+          <usedStationCount>137</usedStationCount>
+          <standardError>1.01</standardError>
+          <azimuthalGap>30.0</azimuthalGap>
+          <minimumDistance>1.325</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-09-04T21:57:40.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>5890.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000n82p/us/1725487060040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us6000n82p" catalog:eventsource="us" catalog:eventid="6000n82p">
+        <mag>
+          <value>5.4</value>
+          <uncertainty>0.049</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000n82p/us/1725487060040/product.xml</originID>
+        <stationCount>40</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-09-04T21:57:40.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000mnu8&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000mnu8">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000mnu8/us/1722976367040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000mnu8/us/1722976367040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>210 km SE of Kushimoto, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-08-06T20:32:47.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000mnu8/us/1722976367040/product.xml" catalog:datasource="us" catalog:dataid="us7000mnu8" catalog:eventsource="us" catalog:eventid="7000mnu8">
+        <time>
+          <value>2024-05-29T17:14:58.129000Z</value>
+        </time>
+        <latitude>
+          <value>32.3127</value>
+        </latitude>
+        <longitude>
+          <value>137.564</value>
+        </longitude>
+        <depth>
+          <value>392698.0</value>
+          <uncertainty>3749.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>193</usedPhaseCount>
+          <usedStationCount>173</usedStationCount>
+          <standardError>0.69</standardError>
+          <azimuthalGap>20.0</azimuthalGap>
+          <minimumDistance>2.036</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-08-06T20:32:47.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8100.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000mnu8/us/1722976367040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000mnu8" catalog:eventsource="us" catalog:eventid="7000mnu8">
+        <mag>
+          <value>5.5</value>
+          <uncertainty>0.051</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000mnu8/us/1722976367040/product.xml</originID>
+        <stationCount>37</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-08-06T20:32:47.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000mtg4&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000mtg4">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000mtg4/us/1719958335040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000mtg4/us/1719958335040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>5 km SSE of Funaishikawa, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-07-02T22:12:15.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000mtg4/us/1719958335040/product.xml" catalog:datasource="us" catalog:dataid="us6000mtg4" catalog:eventsource="us" catalog:eventid="6000mtg4">
+        <time>
+          <value>2024-04-24T11:40:07.440000Z</value>
+        </time>
+        <latitude>
+          <value>36.4232</value>
+        </latitude>
+        <longitude>
+          <value>140.5874</value>
+        </longitude>
+        <depth>
+          <value>54976.0</value>
+          <uncertainty>5424.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>141</usedPhaseCount>
+          <usedStationCount>141</usedStationCount>
+          <standardError>0.63</standardError>
+          <azimuthalGap>116.0</azimuthalGap>
+          <minimumDistance>1.92</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-07-02T22:12:15.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7500.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000mtg4/us/1719958335040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us6000mtg4" catalog:eventsource="us" catalog:eventid="6000mtg4">
+        <mag>
+          <value>5.1</value>
+          <uncertainty>0.071</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000mtg4/us/1719958335040/product.xml</originID>
+        <stationCount>19</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-07-02T22:12:15.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000mcpi&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000mcpi">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000mcpi/us/1719349375040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000mcpi/us/1719349375040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>18 km W of Uwajima, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-10-09T05:55:03.233000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000mcpi/us/1719349375040/product.xml" catalog:datasource="us" catalog:dataid="us7000mcpi" catalog:eventsource="us" catalog:eventid="7000mcpi">
+        <time>
+          <value>2024-04-17T14:14:46.694000Z</value>
+        </time>
+        <latitude>
+          <value>33.2503</value>
+        </latitude>
+        <longitude>
+          <value>132.3647</value>
+        </longitude>
+        <depth>
+          <value>32000.0</value>
+          <uncertainty>1826.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>402</usedPhaseCount>
+          <usedStationCount>386</usedStationCount>
+          <standardError>0.81</standardError>
+          <azimuthalGap>29.0</azimuthalGap>
+          <minimumDistance>1.351</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-06-25T21:02:55.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>4970.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000mcpi/us/1719349375040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000mcpi" catalog:eventsource="us" catalog:eventid="7000mcpi">
+        <mag>
+          <value>6.3</value>
+          <uncertainty>0.037</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000mcpi/us/1719349375040/product.xml</originID>
+        <stationCount>69</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-06-25T21:02:55.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000mapp&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000mapp">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000mapp/us/1718590488040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000mapp/us/1718590488040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>6 km NNE of Nichinan, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-06-17T02:14:48.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000mapp/us/1718590488040/product.xml" catalog:datasource="us" catalog:dataid="us7000mapp" catalog:eventsource="us" catalog:eventid="7000mapp">
+        <time>
+          <value>2024-04-08T01:25:29.592000Z</value>
+        </time>
+        <latitude>
+          <value>31.6565</value>
+        </latitude>
+        <longitude>
+          <value>131.3933</value>
+        </longitude>
+        <depth>
+          <value>50529.0</value>
+          <uncertainty>3717.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>132</usedPhaseCount>
+          <usedStationCount>117</usedStationCount>
+          <standardError>0.63</standardError>
+          <azimuthalGap>24.0</azimuthalGap>
+          <minimumDistance>0.816</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-06-17T02:14:48.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>4890.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000mapp/us/1718590488040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000mapp" catalog:eventsource="us" catalog:eventid="7000mapp">
+        <mag>
+          <value>5.1</value>
+          <uncertainty>0.058</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000mapp/us/1718590488040/product.xml</originID>
+        <stationCount>29</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-06-17T02:14:48.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000m9z0&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000m9z0">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000m9z0/us/1718229114040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000m9z0/us/1718229114040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>34 km SW of Urakawa, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-06-12T21:51:54.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000m9z0/us/1718229114040/product.xml" catalog:datasource="us" catalog:dataid="us7000m9z0" catalog:eventsource="us" catalog:eventid="7000m9z0">
+        <time>
+          <value>2024-04-04T20:31:49.325000Z</value>
+        </time>
+        <latitude>
+          <value>41.9769</value>
+        </latitude>
+        <longitude>
+          <value>142.4449</value>
+        </longitude>
+        <depth>
+          <value>63264.0</value>
+          <uncertainty>5910.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>101</usedPhaseCount>
+          <usedStationCount>99</usedStationCount>
+          <standardError>0.64</standardError>
+          <azimuthalGap>91.0</azimuthalGap>
+          <minimumDistance>0.532</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-06-12T21:51:54.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>5790.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000m9z0/us/1718229114040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000m9z0" catalog:eventsource="us" catalog:eventid="7000m9z0">
+        <mag>
+          <value>5.0</value>
+          <uncertainty>0.069</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000m9z0/us/1718229114040/product.xml</originID>
+        <stationCount>20</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-06-12T21:51:54.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000m98g&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000m98g">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000m98g/us/1718229110040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000m98g/us/1718229110040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>7 km SW of Kuji, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-10-09T07:12:19.316000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000m98g/us/1718229110040/product.xml" catalog:datasource="us" catalog:dataid="us7000m98g" catalog:eventsource="us" catalog:eventid="7000m98g">
+        <time>
+          <value>2024-04-01T19:24:36.670000Z</value>
+        </time>
+        <latitude>
+          <value>40.1435</value>
+        </latitude>
+        <longitude>
+          <value>141.6984</value>
+        </longitude>
+        <depth>
+          <value>73000.0</value>
+          <uncertainty>1879.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>149</usedPhaseCount>
+          <usedStationCount>147</usedStationCount>
+          <standardError>0.98</standardError>
+          <azimuthalGap>29.0</azimuthalGap>
+          <minimumDistance>0.806</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-06-12T21:51:50.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>4390.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000m98g/us/1718229110040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000m98g" catalog:eventsource="us" catalog:eventid="7000m98g">
+        <mag>
+          <value>5.9</value>
+          <uncertainty>0.045</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000m98g/us/1718229110040/product.xml</originID>
+        <stationCount>47</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-06-12T21:51:50.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000mk4v&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000mk4v">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000mk4v/us/1716819560040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000mk4v/us/1716819560040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>1 km S of Kasukabe, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-05-27T14:19:20.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000mk4v/us/1716819560040/product.xml" catalog:datasource="us" catalog:dataid="us6000mk4v" catalog:eventsource="us" catalog:eventid="6000mk4v">
+        <time>
+          <value>2024-03-21T00:08:02.844000Z</value>
+        </time>
+        <latitude>
+          <value>35.9739</value>
+        </latitude>
+        <longitude>
+          <value>139.748</value>
+        </longitude>
+        <depth>
+          <value>45002.0</value>
+          <uncertainty>4172.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>273</usedPhaseCount>
+          <usedStationCount>268</usedStationCount>
+          <standardError>0.6</standardError>
+          <azimuthalGap>51.0</azimuthalGap>
+          <minimumDistance>1.367</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-05-27T14:19:20.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>5080.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000mk4v/us/1716819560040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us6000mk4v" catalog:eventsource="us" catalog:eventid="6000mk4v">
+        <mag>
+          <value>5.2</value>
+          <uncertainty>0.068</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000mk4v/us/1716819560040/product.xml</originID>
+        <stationCount>21</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-05-27T14:19:20.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000mjbp&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000mjbp">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000mjbp/us/1716067406040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000mjbp/us/1716067406040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>44 km ESE of Tomioka, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-05-18T21:23:26.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000mjbp/us/1716067406040/product.xml" catalog:datasource="us" catalog:dataid="us6000mjbp" catalog:eventsource="us" catalog:eventid="6000mjbp">
+        <time>
+          <value>2024-03-16T21:17:04.821000Z</value>
+        </time>
+        <latitude>
+          <value>37.1332</value>
+        </latitude>
+        <longitude>
+          <value>141.4549</value>
+        </longitude>
+        <depth>
+          <value>48550.0</value>
+          <uncertainty>4208.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>156</usedPhaseCount>
+          <usedStationCount>150</usedStationCount>
+          <standardError>0.49</standardError>
+          <azimuthalGap>73.0</azimuthalGap>
+          <minimumDistance>2.67</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-05-18T21:23:26.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>6870.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000mjbp/us/1716067406040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us6000mjbp" catalog:eventsource="us" catalog:eventid="6000mjbp">
+        <mag>
+          <value>5.3</value>
+          <uncertainty>0.068</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000mjbp/us/1716067406040/product.xml</originID>
+        <stationCount>21</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-05-18T21:23:26.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000miuf&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000miuf">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000miuf/us/1716067374040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000miuf/us/1716067374040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>21 km E of Iwaki, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-05-18T21:22:54.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000miuf/us/1716067374040/product.xml" catalog:datasource="us" catalog:dataid="us6000miuf" catalog:eventsource="us" catalog:eventid="6000miuf">
+        <time>
+          <value>2024-03-14T15:14:35.701000Z</value>
+        </time>
+        <latitude>
+          <value>37.083</value>
+        </latitude>
+        <longitude>
+          <value>141.1231</value>
+        </longitude>
+        <depth>
+          <value>44000.0</value>
+          <uncertainty>1896.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>126</usedPhaseCount>
+          <usedStationCount>122</usedStationCount>
+          <standardError>0.78</standardError>
+          <azimuthalGap>71.0</azimuthalGap>
+          <minimumDistance>2.4</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-05-18T21:22:54.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>1820.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000miuf/us/1716067374040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us6000miuf" catalog:eventsource="us" catalog:eventid="6000miuf">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.066</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000miuf/us/1716067374040/product.xml</originID>
+        <stationCount>22</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-05-18T21:22:54.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000m18g&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000m18g">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000m18g/us/1714665013040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000m18g/us/1714665013040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>216 km SE of Kushimoto, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-05-02T15:50:13.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000m18g/us/1714665013040/product.xml" catalog:datasource="us" catalog:dataid="us7000m18g" catalog:eventsource="us" catalog:eventid="7000m18g">
+        <time>
+          <value>2024-02-23T23:10:43.909000Z</value>
+        </time>
+        <latitude>
+          <value>32.1658</value>
+        </latitude>
+        <longitude>
+          <value>137.4984</value>
+        </longitude>
+        <depth>
+          <value>404065.0</value>
+          <uncertainty>4103.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>208</usedPhaseCount>
+          <usedStationCount>195</usedStationCount>
+          <standardError>0.69</standardError>
+          <azimuthalGap>23.0</azimuthalGap>
+          <minimumDistance>2.171</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-05-02T15:50:13.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>6190.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000m18g/us/1714665013040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000m18g" catalog:eventsource="us" catalog:eventid="7000m18g">
+        <mag>
+          <value>5.3</value>
+          <uncertainty>0.083</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000m18g/us/1714665013040/product.xml</originID>
+        <stationCount>14</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-05-02T15:50:13.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000lz3s&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000lz3s">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000lz3s/us/1713969722040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000lz3s/us/1713969722040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>283 km SE of Kushimoto, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-04-24T14:42:02.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000lz3s/us/1713969722040/product.xml" catalog:datasource="us" catalog:dataid="us7000lz3s" catalog:eventsource="us" catalog:eventid="7000lz3s">
+        <time>
+          <value>2024-02-14T06:53:58.474000Z</value>
+        </time>
+        <latitude>
+          <value>31.8124</value>
+        </latitude>
+        <longitude>
+          <value>138.0778</value>
+        </longitude>
+        <depth>
+          <value>372322.0</value>
+          <uncertainty>4317.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>137</usedPhaseCount>
+          <usedStationCount>125</usedStationCount>
+          <standardError>0.7</standardError>
+          <azimuthalGap>40.0</azimuthalGap>
+          <minimumDistance>1.943</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-04-24T14:42:02.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>6530.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000lz3s/us/1713969722040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000lz3s" catalog:eventsource="us" catalog:eventid="7000lz3s">
+        <mag>
+          <value>5.2</value>
+          <uncertainty>0.089</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000lz3s/us/1713969722040/product.xml</originID>
+        <stationCount>12</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-04-24T14:42:02.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000lx1f&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000lx1f">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000lx1f/us/1713641576040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000lx1f/us/1713641576040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>43 km E of Nishinoomote, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-04-20T19:32:56.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000lx1f/us/1713641576040/product.xml" catalog:datasource="us" catalog:dataid="us7000lx1f" catalog:eventsource="us" catalog:eventid="7000lx1f">
+        <time>
+          <value>2024-02-05T08:30:50.309000Z</value>
+        </time>
+        <latitude>
+          <value>30.7824</value>
+        </latitude>
+        <longitude>
+          <value>131.4467</value>
+        </longitude>
+        <depth>
+          <value>38302.0</value>
+          <uncertainty>6714.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>84</usedPhaseCount>
+          <usedStationCount>83</usedStationCount>
+          <standardError>0.45</standardError>
+          <azimuthalGap>97.0</azimuthalGap>
+          <minimumDistance>1.119</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-04-20T19:32:56.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>6710.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000lx1f/us/1713641576040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000lx1f" catalog:eventsource="us" catalog:eventid="7000lx1f">
+        <mag>
+          <value>5.0</value>
+          <uncertainty>0.068</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000lx1f/us/1713641576040/product.xml</originID>
+        <stationCount>68</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-04-20T19:32:56.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000lufj&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000lufj">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000lufj/us/1711838076040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000lufj/us/1711838076040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>11 km W of Ichihara, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-03-30T22:34:36.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000lufj/us/1711838076040/product.xml" catalog:datasource="us" catalog:dataid="us7000lufj" catalog:eventsource="us" catalog:eventid="7000lufj">
+        <time>
+          <value>2024-01-27T23:59:29.184000Z</value>
+        </time>
+        <latitude>
+          <value>35.5331</value>
+        </latitude>
+        <longitude>
+          <value>139.9558</value>
+        </longitude>
+        <depth>
+          <value>70051.0</value>
+          <uncertainty>4892.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>172</usedPhaseCount>
+          <usedStationCount>172</usedStationCount>
+          <standardError>0.57</standardError>
+          <azimuthalGap>66.0</azimuthalGap>
+          <minimumDistance>1.737</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-03-30T22:34:36.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7020.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000lufj/us/1711838076040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000lufj" catalog:eventsource="us" catalog:eventid="7000lufj">
+        <mag>
+          <value>5.1</value>
+          <uncertainty>0.047</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000lufj/us/1711838076040/product.xml</originID>
+        <stationCount>146</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-03-30T22:34:36.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000lu1f&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000lu1f">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000lu1f/us/1712690333040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000lu1f/us/1712690333040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>Izu Islands, Japan region</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2024-04-09T19:18:53.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000lu1f/us/1712690333040/product.xml" catalog:datasource="us" catalog:dataid="us7000lu1f" catalog:eventsource="us" catalog:eventid="7000lu1f">
+        <time>
+          <value>2024-01-26T12:46:16.087000Z</value>
+        </time>
+        <latitude>
+          <value>29.1244</value>
+        </latitude>
+        <longitude>
+          <value>141.5556</value>
+        </longitude>
+        <depth>
+          <value>45090.0</value>
+          <uncertainty>3718.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>201</usedPhaseCount>
+          <usedStationCount>191</usedStationCount>
+          <standardError>0.58</standardError>
+          <azimuthalGap>29.0</azimuthalGap>
+          <minimumDistance>2.096</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-04-09T19:18:53.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>6610.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000lu1f/us/1712690333040/product.xml#magnitude" catalog:datasource="us" catalog:dataid="us7000lu1f" catalog:eventsource="us" catalog:eventid="7000lu1f">
+        <mag>
+          <value>5.4</value>
+          <uncertainty>0.052</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000lu1f/us/1712690333040/product.xml</originID>
+        <stationCount>35</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2024-04-09T19:18:53.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+  </eventParameters>
+</q:quakeml>
