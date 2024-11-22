@@ -1,9 +1,9 @@
-// {"image":"mcr.microsoft.com/devcontainers/universal:2"}
-{
-  "name": "MATLAB",
-  "image": "mathworks/matlab:latest",
-  "waitFor": "updateContentCommand",
-  "updateContentCommand": {
-    "install-git": "sudo apt-get update && sudo apt-get install git -y"
-  }
-}
+{"image":"mcr.microsoft.com/devcontainers/universal:2"}
+// {
+//   "name": "MATLAB",
+//   "image": "mathworks/matlab:latest",
+//   "waitFor": "updateContentCommand",
+//   "updateContentCommand": {
+//     "install-git": "sudo apt-get update && sudo apt-get install git -y"
+//   }
+// }
