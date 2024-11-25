@@ -1,3 +1,34 @@
+# 11.25.2024 23:13
+
+[Month Date, Year]
+
+To Whom It May Concern,
+
+It is my great pleasure to recommend Jiajun Chen for admission in [Geophysics] at [University]. I am his [Bachelor advisor] at Wuhan university who have closely interacted with him [since 2023]. As an undergraduate, he is found to be an intelligent and hardworking student, who has great potential to succeed in academia. Inasmuch as demonstrated above, I fully endorse his Ph.D. application with my strongest recommendation. [section generalized for all letters]
+
+Jiajun has primarily worked on modeling the temporal variations in Rayleigh wave velocities following previous work of our group. To be more specific, he centered on examining the sensitivity kernels of surface wave velocities to S-wave velocities to confirm if the mathematical setting is well developed. He turned to plenty of articles about how to derive the expression of the relative perturbations in phase velocities, as well as programs for approaching it. [, finding that the intermediate method to yield group velocities may be incomplete for not using all parameters. This suggests that the expression for phase velocities, which involves group velocities in its derivation, is also called into question. (conclusion may be questioned, so hung here)]
+
+Jiajun’s work firmly highlights his solid foundation of professional knowledge and his desire to explore the unknown. Before he dived into the sensitivity kernel part, he quickly reproduced the existing profile of the stress sensitivity parameter, demonstrating his keen and precise understanding of research, strong basis and efficient execution through simple and straightforward MATLAB setups. Besides that, Jiajun has the tendency to try different techniques on [need ‘on’ to emphasize?] regarding programing, including but not limited to GIS processing and network programing and can always push his projects as fast as possible.
+
+Jiajun is deeply passionate about his interests, consistently solving and interpreting problems with remarkable precision. I was impressed during our conversations when he described how he developed ingenious solutions for a minor coursework assignment. He thrives on challenging himself with various geophysics problems that captivate him, tackling them with enthusiasm and excellence. When we were attending the DEEP 2024 symposium at Beijing, he held a discussion with me on the emphasis of everything about seismology and geodynamics, pushing him to be a comprehensive candidate. His passion for exploring the Earth is evident in his willingness to invest necessary time and effort for time-consuming problems, which leads to the attainment of significant results ultimately.
+
+Throughout the modeling project, Jiajun has also participated in discussions of interpretation for the sensitivity parameter regarding effective stress and S-wave velocity variation, during which he shows great motivation and willingness for teamwork. He compiled a detailed and articulate handbook on the gist of geophysical data analysis for his classmates when he was taking my course, proving that he is a generous and friendly candidate for collaboration programs. [maybe put in the front? Kind of weird…]
+
+Overall, I believe Jiajun is a student with great potential in future research. He has been always passionate about his research and geoscience, expanding his knowledge and understanding in seismology and tectonics. He has consistently demonstrated his capacity to conduct rigorous research and find solutions to challenges. [University] is renowned for its strong [program], offering great position for the brightest students to achieve their excellence. I firmly believe that Jiajun’s adaptability will be well coupled with your outstanding program, which will enable him to mature into an exceptional scientist.
+
+Jiajun has my strongest recommendation. If you require any further information, please do not hesitate to contact me.
+
+Sincerely,
+
+[Sign here]
+[Position]
+[Department]
+[Address]
+[TEL]
+[E-mail]
+
+
+
 # 11.25.2024 22:47
 [Month Date, Year]
 
@@ -75,3 +106,4 @@ Professor Li
 
 Department of [Your Department]
 [Your University]
+
