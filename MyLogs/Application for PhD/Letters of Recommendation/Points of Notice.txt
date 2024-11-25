@@ -1,0 +1,39 @@
+"compiled a detailed handbook on ... " 
+	=> 可用于“课程手书”
+
+"read plenty of articles about..." 
+	=> 读文章是必要特点
+
+both Linxuan and Junyi 
+	=> describe a detail information for academic experiences( including what problems they faced and how to deal with them
+
+"stands at the intersection of disciplines and uses various techniques and methods. They all seve his academic ambition: a better understanding of the Earth's crust and earthquakes. He often goes out of his comfort zone, focuses on problems that current theories cannot explain, and pushes his projects as far as possible." 
+	=> 可吹吹“快速上手编程呈现”
+
+"has a solid foundation of professional knowledge, good computer programming skills, substantial independent research ability, valuable self-learning ability, and high efficiency. There were a few obstacles in the project, but ... kept pushing it forward with his intelligence and hard work. For example, when he discovered that ..." 
+	=> 过程困难及解决办法（重点是解决办法
+
+"also faced pressure from course study and some other research projects in the past few months. However, his progress on this project is satisfactory" 
+	=> 接上条
+
+"has always been passionate about his research and Earth sciences. As an undergraduate student, ... showed strong motivation for academia along with great research potential. I fully support his application. Please do not hesitate to contact me if you have any questions." 
+	=> ending
+
+"has a strong basis for coding and method developing, which enables him to solve ... beautifully and efficiently." 
+	=> stress the capability of strong basis
+
+structure of letter 
+	=> 1.who we are, "I am his ... ", "overall he is ... with strong ..." 
+	=> 2.what he have done on academics in general way, "primarily focused on ..." 
+	=> 3.what stand for his strong basis, "matlab", "developed codes" 
+	=> 4. hard-working performance, "read articles", "exam many" 
+	=> 5.teamwork, friendly and helpfulness, "helped two undergraduate members with their works and made video tutorials", "handbooks" 
+	=> 6.summary, "I believe ... is a student with great potential", well equipped
+
+motivation, potential, intelligence, diligence, ...
+
+"As you can see, Hongrui is productive and creative. Through collaborating with him, I find what truly sets him apart is his self-motivation and ability to find and solve problems independently. He is not merely a proficient learner but a true innovator. Developing methods is time-consuming, but Hongrui enjoys this process and keeps thinking critically. His passion for exploring the Earth is evident in his willingness to invest the necessary time and effort, which ultimately leads to the creation of innovative techniques and the attainment of significant results. " 
+	=> efforts and hard-working part
+
+" [XXX] is renowned for its strong [XXX] program, offering a wonderful academic environment for the brightest students to study and do research. I firmly believe, that Hongrui’s adaptability, coupled with your outstanding program, will undoubtedly enable him to overcome challenges and mature into an exceptional scientist." 
+	=> 吹一下目标program
